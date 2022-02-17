@@ -17,8 +17,8 @@ $ npm start
 Bu kadar..
 
 **Devre**
-Pot: 10K
-R1 = 10K
+- Pot: 10K
+- R1 = 10K
 ![](https://i.ibb.co/LkFKt59/potdevre.png)
 
 https://muhammedsaygili.com
