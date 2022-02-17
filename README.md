@@ -1,6 +1,3 @@
-# BasicPot
-Progressbarda potansiyometre seviyesini göstermek ne kadar zor olabilir ki ?
-
 **Test Edilen Nodejs Versiyonları**
 - v15.8.0
 
@@ -8,8 +5,12 @@ Progressbarda potansiyometre seviyesini göstermek ne kadar zor olabilir ki ?
 ```shell
 $ npm install
 ```
-Yükleme bittikten sonra
+Yükleme bittikten sonra main.js içinden COM portunu değiştir.
 
+```javascript
+const port = new SerialPort({ path: 'COM3', baudRate: 9600 }) //Port
+```
+Portunu değiştirdikten sonra
 ```shell
 $ npm start
 ```
