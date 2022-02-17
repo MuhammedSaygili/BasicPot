@@ -2,7 +2,7 @@
 - v15.8.0
 
 **Kullanım**
-```shell``
+```shell
 $ npm install
 ```
 Yükleme bittikten sonra main.js içinden COM portunu değiştir.
